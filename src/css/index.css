@@ -18,3 +18,15 @@
     color: black;
 }
 
+#navbarHeader{
+    background-color: black;
+}
+
+.navbar.navbar-dark.shadow-sm{  
+    background-color: black;
+}
+
+.container.d-flex.justify-content-between a {
+    color: yellow;
+}
+
