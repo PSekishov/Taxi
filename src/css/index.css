@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+
+/********* Header *****/
+
+.header-info-content{
+    width: 100%;
+    background-color: yellow;
+    padding: 0.5rem;
+}
+
+.header-info-content a[href*='.com']{
+    color: black;
+}
+
+.header-info-content a[href*='tel']{
+    color: black;
+}
+
