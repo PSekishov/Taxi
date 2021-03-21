@@ -1,13 +1,16 @@
 *{
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 /********* Header *****/
 
 .header-info-content{
     width: 100%;
-    background-color: yellow;
+    background-color: #28a745;
     padding: 0.5rem;
+    color:  #000;
 }
 
 .header-info-content a[href*='.com']{
@@ -20,13 +23,18 @@
 
 #navbarHeader{
     background-color: black;
+    color: #fff;
 }
+
 
 .navbar.navbar-dark.shadow-sm{  
     background-color: black;
 }
 
 .container.d-flex.justify-content-between a {
-    color: yellow;
+    color: #fff
 }
+
+
+/*********************************************/
 
