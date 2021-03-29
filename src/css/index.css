@@ -4,10 +4,11 @@
     margin: 0;
 }
 
+
+
 /********* Header *****/
 
-.header-info-content{
-    /* width: 100%; */
+.header-info-content {
     background-color: #28a745;
     padding: 0.5rem;
     margin: 0;
@@ -20,7 +21,7 @@
 
 .header-info-content a[href*='tel']{
     color: black;
-}
+} 
 
 #navbarHeader{
     background-color: black;
@@ -215,14 +216,12 @@
 
 .contact .btn-success:hover{
     background-color: #000;
-}
+} 
 
 /************** FOOTER ***********/
 
 .footer{
-    background-image: url('../images/black-bg.jpg');
-   
-    
+    background-image: url('../images/black-bg.jpg');   
 }
 
 
@@ -304,6 +303,15 @@ a:hover{
 
 .footer .social h5{
     margin: 0;
+} 
+
+
+/************ Anchor ***********/
+
+#anchor{
+    display: none;
+    z-index: 9999;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
 }
-
-
